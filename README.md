@@ -6,3 +6,4 @@ En este repo se encuentran mis entregas de laboratorio (tanto grupales como indi
 Labs disponibles:
   * [**AyEdD II**](/AYED-II)
   * [**SISTEMAS OPERATIVOS**](/SISTEMAS-OPERATIVOS)
+  * [**ORGANIZACION DEL COMPUTADOR**](https://github.com/achaval-tomas/ASM-Tetris)
