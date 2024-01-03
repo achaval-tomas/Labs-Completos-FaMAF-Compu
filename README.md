@@ -1,4 +1,8 @@
-# AYED-II
-Todos los labs de Algoritmos y Estructuras de Datos II en FAMAF.
+# Labs FaMAF Compu
+Todos mis labs de distintas materias en FaMAF.
 
-Las entregas de laboratiorios que hice para AYED II durante el primer cuatrimestre de segundo año en FAMAF. Todo es código en C y cada lab es un poco mas avanzado que el anterior. Puede contener errores.
+En este repo se encuentran mis entregas de laboratorio (tanto grupales como individuales) de las distintas materias que vaya cursando en la Lic. en Ciencias de la Computación de FaMAF. Pueden contener errores.
+
+Labs disponibles:
+  * [**AyEdD II**](/AYED-II)
+  * [**SISTEMAS OPERATIVOS**](/SISTEMAS-OPERATIVOS)
