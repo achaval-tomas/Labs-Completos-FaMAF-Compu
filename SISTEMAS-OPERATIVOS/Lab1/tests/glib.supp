@@ -1,0 +1,6 @@
+{
+   glib-2.0-memcheck
+   Memcheck:Leak
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.*
+}

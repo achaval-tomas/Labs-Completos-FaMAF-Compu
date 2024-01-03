@@ -1,0 +1,63 @@
+#!/usr/bin/env python
+import re
+from gradelib import *
+
+r = Runner(save("xv6.out"))
+
+@test(1, "pingpong no parameters")
+def test_pingpong_empty():
+    r.run_qemu(shell_script([
+        'pingpong'
+    ]))
+    r.match('ERROR')
+
+@test(1, "pingpong wrong parameters")
+def test_pingpong_wrong_parameters():
+    r.run_qemu(shell_script([
+        'pingpong -1'
+    ]))
+    r.match('ERROR')
+
+@test(1, "pingpong three rounds")
+def test_pingpong_3():
+    r.run_qemu(shell_script([
+        'pingpong 3'
+    ]))
+    no_ping = len(re.findall(r'\bping\b', r.qemu.output, flags = re.IGNORECASE))
+    no_pong = len(re.findall(r'\bpong\b', r.qemu.output, flags = re.IGNORECASE))
+    assert_equal(no_ping, 3)
+    assert_equal(no_pong, 3)
+
+@test(1, "pingpong check proper order & termination")
+def test_pingpong_order():
+    r.run_qemu(shell_script([
+        'pingpong 10; echo DONE'
+    ]))
+    no_pairs=len(re.findall(r'ping[^\n]*\n[^\n]*pong', r.qemu.output, flags = re.MULTILINE|re.IGNORECASE)) # Count the number of ordered pairs
+    assert_equal(no_pairs, 10, "pingpong has order issues on the rounds")
+    match = re.search(r'\nDONE\n\$ qemu-system-riscv64', r.qemu.output, flags = re.MULTILINE) # Ensure DONE is printed at the end (i.e. proper termination)
+    assert_equal(match != None, True, "pingpong should not exit before it is done")
+
+@test(1, "pingpong check concurrency")
+def test_pingpong_concurrency():
+    r.run_qemu(shell_script([
+        'pingpong 10 & ; pingpong 10 & ; pingpong 20 ; echo DONE'
+    ]))
+    # Extract the program output
+    match = re.search(r'echo DONE\n([^D]+)DONE\n', r.qemu.output, flags = re.MULTILINE)
+    assert_equal(match != None, True, "Malformed output")
+    sub_string = match.group(1)
+    no_i=len(re.findall(r'i', sub_string, flags = re.MULTILINE))
+    no_o=len(re.findall(r'o', sub_string, flags = re.MULTILINE))
+    # print(f"i:{no_i} o:{no_o}\nmatches -> {sub_string}")
+    assert_equal(no_i, 40, "Number of i not what was expected")
+    assert_equal(no_o, 40, "Number of o not what was expected")
+
+# TO-DO
+# Write a program to check: 
+#  - semaphores cannot be used if not init
+#  - semaphores are initialized to the proper value
+#  - closed sempahores cannot be used
+#  - semaphore exaustion and reuse after close
+
+run_tests()

@@ -1,0 +1,89 @@
+
+xv6 kernel is booting
+
+hart 1 starting
+hart 2 starting
+init: starting sh
+$ pingpong 10 & ; pingpong 10 & ; pingpong 20 ; echo DONE
+ping
+pi	npg
+ong
+	pppoinngg
+
+inp	gp
+o	inpgn
+g
+o	pnpgi
+nogp
+nign
+	g
+pop	ipnognn
+gg
+	
+ppopiinngg
+
+n	pg	
+poonnpggi
+n
+gp
+inpgi
+n	g	
+ppoonngg
+
+	pppioinngg
+
+pnig	
+npgo
+n	gp
+	opnogn
+gp
+inpgipni
+n	gp
+ong	gp
+opn
+ingg	
+p	o
+ponngg
+
+ppiipningg
+
+	pno	npgo
+ngpgi
+
+ng	
+pp	ipoonngg
+n
+gp
+pii	npgo
+n	ngp
+ongg
+p
+in	gpo
+ng
+	ppionng
+g
+pin	gp
+on	pgo
+npgin
+g
+p	pionngg
+
+	pong
+ping
+	pong
+ping
+	pong
+ping
+	pong
+ping
+	pong
+ping
+	pong
+ping
+	pong
+ping
+	pong
+ping
+	pong
+DONE
+$ qemu-system-riscv64: terminating on signal 15 from pid 25736 (make)
