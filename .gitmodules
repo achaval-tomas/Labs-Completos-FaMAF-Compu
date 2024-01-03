@@ -1,0 +1,3 @@
+[submodule "ORG-COMPUTADOR"]
+	path = ORG-COMPUTADOR
+	url = https://github.com/achaval-tomas/ASM-Tetris.git
