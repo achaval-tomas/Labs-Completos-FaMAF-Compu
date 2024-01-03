@@ -1,3 +1,6 @@
 [submodule "ORG-COMPUTADOR"]
 	path = ORG-COMPUTADOR
 	url = https://github.com/achaval-tomas/ASM-Tetris.git
+[submodule "INTRO-ALGORITMOS"]
+	path = INTRO-ALGORITMOS
+	url = https://github.com/achaval-tomas/Haskell-Ejercicios.git
