@@ -9,3 +9,4 @@ En este repo se encuentran mis entregas de laboratorio (tanto grupales como indi
   * [**AyEdD II**](/AYED-II)
   * [**ORGANIZACION DEL COMPUTADOR**](https://github.com/achaval-tomas/ASM-Tetris)
   * [**SISTEMAS OPERATIVOS**](/SISTEMAS-OPERATIVOS)
+  * [**DISCRETA-II**](https://github.com/achaval-tomas/discreta-proyecto2024)
