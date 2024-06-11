@@ -6,4 +6,4 @@
 	url = https://github.com/achaval-tomas/Haskell-Ejercicios.git
 [submodule "DISCRETA-II"]
 	path = DISCRETA-II
-        url = https://github.com/achaval-tomas/discreta-proyecto2024.git
+	url = https://github.com/achaval-tomas/discreta-proyecto2024.git
