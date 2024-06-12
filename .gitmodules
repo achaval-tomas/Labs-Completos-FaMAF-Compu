@@ -1,9 +1,9 @@
-[submodule "ASM-TETRIS"]
+[submodule "ORG-COMPUTADOR/ASM-TETRIS"]
 	path = ORG-COMPUTADOR/ASM-TETRIS
 	url = https://github.com/achaval-tomas/ASM-Tetris.git
-[submodule "LABS"]
-	path = INTRO-ALGORITMOS/LABS
-	url = https://github.com/achaval-tomas/Haskell-Ejercicios.git
-[submodule "PROYECTO"]
+[submodule "DISCRETA-II/PROYECTO"]
 	path = DISCRETA-II/PROYECTO
 	url = https://github.com/achaval-tomas/discreta-proyecto2024.git
+[submodule "INTRO-ALGORITMOS/LABS"]
+	path = INTRO-ALGORITMOS/LABS
+	url = https://github.com/achaval-tomas/Haskell-Ejercicios.git
