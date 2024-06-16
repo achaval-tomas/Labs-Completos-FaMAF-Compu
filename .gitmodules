@@ -7,3 +7,12 @@
 [submodule "INTRO-ALGORITMOS/LABS"]
 	path = INTRO-ALGORITMOS/LABS
 	url = https://github.com/achaval-tomas/Haskell-Ejercicios.git
+[submodule "AYED-II/AYED-II"]
+	path = AYED-II/AYED-II
+	url = https://github.com/achaval-tomas/AyEdD-2-labs.git
+[submodule "AYED-I/AYED-I"]
+	path = AYED-I/AYED-I
+	url = https://github.com/achaval-tomas/AyEdD-1-labs.git
+[submodule "SISTEMAS-OPERATIVOS/SISTEMAS-OPERATIVOS"]
+	path = SISTEMAS-OPERATIVOS/SISTEMAS-OPERATIVOS
+	url = https://github.com/achaval-tomas/sistop-labs.git
