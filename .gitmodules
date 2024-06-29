@@ -1,18 +1,39 @@
-[submodule "ORG-COMPUTADOR/ASM-TETRIS"]
-	path = ORG-COMPUTADOR/ASM-TETRIS
-	url = https://github.com/achaval-tomas/ASM-Tetris.git
-[submodule "DISCRETA-II/PROYECTO"]
-	path = DISCRETA-II/PROYECTO
-	url = https://github.com/achaval-tomas/discreta-proyecto2024.git
-[submodule "INTRO-ALGORITMOS/LABS"]
-	path = INTRO-ALGORITMOS/LABS
+[submodule "1A1C INTRO-ALGORITMOS/EJERCICIOS"]
+	path = 1A1C INTRO-ALGORITMOS/EJERCICIOS
 	url = https://github.com/achaval-tomas/Haskell-Ejercicios.git
-[submodule "AYED-II/AYED-II"]
-	path = AYED-II/AYED-II
-	url = https://github.com/achaval-tomas/AyEdD-2-labs.git
-[submodule "AYED-I/AYED-I"]
-	path = AYED-I/AYED-I
+[submodule "1A2C AyEdD-I/LABS"]
+	path = 1A2C AyEdD-I/LABS
 	url = https://github.com/achaval-tomas/AyEdD-1-labs.git
-[submodule "SISTEMAS-OPERATIVOS/SISTEMAS-OPERATIVOS"]
-	path = SISTEMAS-OPERATIVOS/SISTEMAS-OPERATIVOS
+[submodule "2A1C AyEdD-II/LABS"]
+	path = 2A1C AyEdD-II/LABS
+	url = https://github.com/achaval-tomas/AyEdD-2-labs.git
+[submodule "2A1C ORG-COMP/ASM-Tetris"]
+	path = 2A1C ORG-COMP/ASM-Tetris
+	url = https://github.com/achaval-tomas/ASM-Tetris.git
+[submodule "2A2C SISTEMAS-OPERATIVOS/LABS"]
+	path = 2A2C SISTEMAS-OPERATIVOS/LABS
 	url = https://github.com/achaval-tomas/sistop-labs.git
+[submodule "3A1C PARADIGMAS/LAB 1"]
+	path = 3A1C PARADIGMAS/LAB 1
+	url = https://github.com/achaval-tomas/paradigmas-lab1.git
+[submodule "3A1C PARADIGMAS/LAB 2"]
+	path = 3A1C PARADIGMAS/LAB 2
+	url = https://github.com/achaval-tomas/paradigmas-lab2.git
+[submodule "3A1C PARADIGMAS/LAB 3"]
+	path = 3A1C PARADIGMAS/LAB 3
+	url = https://github.com/achaval-tomas/paradigmas-lab3.git
+[submodule "3A1C REDES-y-SISTEMAS/LAB 1"]
+	path = 3A1C REDES-y-SISTEMAS/LAB 1
+	url = https://github.com/achaval-tomas/redes-lab1.git
+[submodule "3A1C REDES-y-SISTEMAS/LAB 2"]
+	path = 3A1C REDES-y-SISTEMAS/LAB 2
+	url = https://github.com/achaval-tomas/redes-lab2.git
+[submodule "3A1C REDES-y-SISTEMAS/LAB 3"]
+	path = 3A1C REDES-y-SISTEMAS/LAB 3
+	url = https://github.com/achaval-tomas/redes-lab3.git
+[submodule "3A1C REDES-y-SISTEMAS/LAB 4"]
+	path = 3A1C REDES-y-SISTEMAS/LAB 4
+	url = https://github.com/achaval-tomas/redes-lab4.git
+[submodule "3A1C DISCRETA-II/PROYECTO"]
+	path = 3A1C DISCRETA-II/PROYECTO
+	url = https://github.com/achaval-tomas/discreta-proyecto2024.git
