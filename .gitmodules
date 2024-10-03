@@ -37,3 +37,6 @@
 [submodule "3A1C DISCRETA-II/PROYECTO"]
 	path = 3A1C DISCRETA-II/PROYECTO
 	url = https://github.com/achaval-tomas/discreta-proyecto2024.git
+[submodule "3A2C BASES-DE-DATOS/PRACTICOS"]
+	path = 3A2C BASES-DE-DATOS/PRACTICOS
+	url = https://github.com/achaval-tomas/basesdedatos-practicos.git
