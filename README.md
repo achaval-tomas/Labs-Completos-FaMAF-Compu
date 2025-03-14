@@ -16,6 +16,7 @@ Mis exámenes resueltos se pueden ver en [**este repositorio.**](https://github.
     * [**PARADIGMAS DE PROGRAMACIÓN**](3A1C%20PARADIGMAS/)
     * [**DISCRETA-II**](3A1C%20DISCRETA-II/)
     * [**BASES DE DATOS**](3A2C%20BASES-DE-DATOS/)
+    * [**INGENIERÍA DEL SOFTWARE I**](3A2C%20ING-SOFT-I/)
 
 Mi grupo principal en los labs fue **'T++'** junto con [Tomás Maraschio](https://github.com/tomimara52) y [Tomás Peyronel](https://github.com/tpeyronel).
 
