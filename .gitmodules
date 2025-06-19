@@ -43,3 +43,9 @@
 [submodule "3A2C ING-SOFT-I/PROYECTO"]
 	path = 3A2C ING-SOFT-I/PROYECTO
 	url = https://github.com/achaval-tomas/ingsoft-proyecto.git
+[submodule "4A1C COMPUTACIÓN-PARALELA (optativa)/LABS"]
+	path = 4A1C COMPUTACIÓN-PARALELA (optativa)/LABS
+	url = https://github.com/achaval-tomas/computacion-paralela.git
+[submodule "4A1C MODELOS-Y-SIMULACIÓN/PRACTICOS-Y-TP"]
+	path = 4A1C MODELOS-Y-SIMULACIÓN/PRACTICOS-Y-TP
+	url = https://github.com/achaval-tomas/modelos-y-simulacion.git
