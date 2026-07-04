@@ -49,3 +49,6 @@
 [submodule "4A1C MODELOS-Y-SIMULACIÓN/PRACTICOS-Y-TP"]
 	path = 4A1C MODELOS-Y-SIMULACIÓN/PRACTICOS-Y-TP
 	url = https://github.com/achaval-tomas/modelos-y-simulacion.git
+[submodule "5A1C SISTEMAS-DE-TIEMPO-REAL (optativa)/PROYECTO"]
+	path = 5A1C SISTEMAS-DE-TIEMPO-REAL (optativa)/PROYECTO
+	url = git@github.com:achaval-tomas/SistemasDeTiempoReal.git
