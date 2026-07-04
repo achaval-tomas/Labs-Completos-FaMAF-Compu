@@ -20,6 +20,8 @@ Mis exámenes resueltos se pueden ver en [**este repositorio.**](https://github.
   * **Cuarto Año**
     * [**COMPUTACIÓN PARALELA (optativa)**](4A1C%20COMPUTACIÓN-PARALELA%20(optativa)/)
     * [**MODELOS Y SIMULACIÓN**](4A1C%20MODELOS-Y-SIMULACIÓN/)
+  * **Quinto Año**
+    * [**SISTEMAS DE TIEMPO REAL (optativa)**](5A1C%20SISTEMAS-DE-TIEMPO-REAL%20(optativa)/)
 
 Mi grupo principal en los labs fue **'T++'** junto con [Tomás Maraschio](https://github.com/tomimara52) y [Tomás Peyronel](https://github.com/tpeyronel).
 
